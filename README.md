@@ -1,7 +1,7 @@
 # Forecast UGs Notebook
 
 Este repositório contém um notebook Jupyter (`forecast_ugs.ipynb`) utilizado para
-análise e previsão de séries temporais de Unidades Geradoras (UGs) no Brasil.
+análise e previsão de séries temporais de Unidades Geradoras (UGs) no estado do Piauí.
 
 ## Objetivo
 
@@ -13,6 +13,7 @@ métricas de avaliação, é selecionado para a análise final.
 
 - Arquivo: `UGs.csv` (dados mensais de unidades geradoras de energia elétrica
   fornecidos pela ANEEL).
+- Importante frisar que o arquivo UGs.csv foi tratado previamente à implementação do estudo de forecasting
 - Período utilizado: a partir de junho de 2017.
 - Série univariada com 91 observações após preprocessamento.
 
